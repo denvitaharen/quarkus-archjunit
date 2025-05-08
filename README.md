@@ -4,8 +4,11 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
-## Running the application in dev mode
+## Drawbacks
+What I haven't managed to get to work is go get the ArchUnit to rerun when using the dev mode. It runs the first time you start,
+but it will not be trigged and runed again.
 
+## Running the application in dev mode
 You can run your application in dev mode that enables live coding using:
 
 ```shell script
